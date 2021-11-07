@@ -1,10 +1,10 @@
 # gd_setlists
-Project to retrieve Grateful Dead concert setlists using BeautifulSoup and then export as a csv
+Project to retrieve Grateful Dead concert setlists using BeautifulSoup, organize data using pandas, then export as a csv
 
 The source site structure is:
-    - A list of html pages for each year from 1972 to 1995 
-    - That in turn has links to each concert in that year
-    - And each link leads to a txt file with the setlist for each concert.
+- A list of html pages for each year from 1972 to 1995 
+- That in turn has links to each concert in that year
+- And each link leads to a txt file with the setlist for each concert.
 
 The notebook ending in 'test' was my development file to make sure all data was being retrieved the way I intended. The actual loop is in the 'loop' notebook.
 
